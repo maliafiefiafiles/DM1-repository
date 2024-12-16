@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+</head>
+<body>
+<h1>My Image Gallery</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="page2.html">Page 2</a>
+</nav>
+<div class="gallery">
+<img src="https://via.placeholder.com/150" alt="Placeholder Image 1">
+<img src="https://via.placeholder.com/150" alt="Placeholder Image 2">
+<img src="https://via.placeholder.com/150" alt="Placeholder Image 3">
+</div>
+<style>
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+h1 {
+background-color: #f4f4f4;
+padding: 10px 0;
+margin: 0;
+}
+nav {
+background-color: #ddd;
+padding: 10px 0;
+}
+nav a {
+margin: 0 10px;
+text-decoration: none;
+color: #333;
+}
+nav a:hover {
+text-decoration: underline;
+}
+.gallery {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
+padding: 20px;
+}
+.gallery img {
+width: 150px;
+height: 150px;
+object-fit: cover;
+border: 2px solid #ccc;
+border-radius: 5px;
+}
+</style>
+</body>
+</html>
